@@ -1,0 +1,22 @@
+{
+  "name": { "eng": "Student Name", "urdu": "لیز ہولڈر / کمپنی کا نام" },
+  "class": { "eng": "Class", "urdu": "موجودہ جماعت" },
+  "gender": { "eng": "Gender", "urdu": "صنف" },
+  "dob": { "eng": "Date of Birth", "urdu": "تاریخ پیدائش" },
+  "reg_no": {
+    "eng": "Reg No/Form-B No",
+    "urdu": "فارم 'ب' رجسٹریشن نمبر / شناختی کارڈ نمبر"
+  },
+  "institute": {
+    "eng": "School/Institute for Special Children/College/University Name",
+    "urdu": "سکول / خصوصی بچوں کے تعلیمی ادارے / کالج / یونیورسٹی کا نام"
+  },
+  "subject": {
+    "eng": "Subject/Specialization/Discipline",
+    "urdu": "مضمون"
+  },
+  "semester": {
+    "eng": "Semester",
+    "urdu": "موجودہ سیمسٹر"
+  }
+}

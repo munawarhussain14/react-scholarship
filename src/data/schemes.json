@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "scheme_1",
+    "title": {
+      "eng": "Scholarship for Children of Mines Labour",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "detail": {
+      "eng": "Scholarship for Children of Mines Labour",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "to": "scholarship"
+  },
+  {
+    "_id": "scheme_2",
+    "title": {
+      "eng": "Quality Education",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "detail": {
+      "eng": "Scholarship for Children of Mines Labour",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "to": "/qualitiy-education"
+  },
+  {
+    "_id": "scheme_3",
+    "title": {
+      "eng": "Special Children",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "detail": {
+      "eng": "Scholarship for Children of Mines Labour",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "to": "/special-children"
+  },
+  {
+    "_id": "scheme_4",
+    "title": {
+      "eng": "Occupational Pulmonary",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "detail": {
+      "eng": "Scholarship for Children of Mines Labour",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "to": "/pulmonary-labour"
+  },
+  {
+    "_id": "scheme_5",
+    "title": {
+      "eng": "Disabled Mine Labaours",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "detail": {
+      "eng": "Scholarship for Children of Mines Labour",
+      "urdu": "مائنز لیبر کے بچوں کے لیے اسکالرشپ"
+    },
+    "to": "/disabled-labour"
+  }
+]

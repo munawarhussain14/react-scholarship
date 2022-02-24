@@ -1,0 +1,13 @@
+{
+  "matric": [
+    { "value": "Science", "text": "Science" },
+    { "value": "Arts", "text": "Arts" }
+  ],
+  "fsc": [
+    { "value": "ICS", "text": "ICS" },
+    { "value": "FSc (Pre-Engineering)", "text": "FSc (Pre-Engineering)" },
+    { "value": "FSc (Pre-Medical)", "text": "FSc (Pre-Medical)" },
+    { "value": "FA", "text": "FA" },
+    { "value": "D.Com", "text": "D.Com" }
+  ]
+}
