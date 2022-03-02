@@ -4,5 +4,11 @@
       "eng": "Student Personal Information",
       "urdu": "طالب علم کے ذاتی کوائف"
     }
+  },
+  "education_area": {
+    "title": {
+      "eng": "Educational Information",
+      "urdu": "تعلیمی کوائف"
+    }
   }
 }

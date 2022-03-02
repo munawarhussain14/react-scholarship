@@ -16,7 +16,19 @@
     "urdu": "مضمون"
   },
   "semester": {
-    "eng": "Semester",
-    "urdu": "موجودہ سیمسٹر"
+    "eng": "Semester/Year",
+    "urdu": "موجودہ سال/ سیمسٹر"
+  },
+  "obtained_marks": {
+    "eng": "Obtained Marks/CGPA",
+    "urdu": "پچھلی جماعت کےحاصل کردہ نمبر"
+  },
+  "total_marks": {
+    "eng": "Total Marks/CPGA",
+    "urdu": "پچھلی جماعت کے کل نمبر"
+  },
+  "passing_year": {
+    "eng": "Passing Year",
+    "urdu": "سال"
   }
 }

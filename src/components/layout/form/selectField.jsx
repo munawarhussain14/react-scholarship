@@ -4,7 +4,14 @@ import Label from "./label";
 import _labels from "../../../data/labels.json";
 
 const SelectField = ({ name, options = [], ...props }) => {
-  options = [{ value: "", text: "Select " + _labels[name]["eng"] }, ...options];
+  options = [
+    {
+      value: "",
+      text: "Select " + _labels[name]["eng"],
+      attr: {},
+    },
+    ...options,
+  ];
   const selectValue = "";
   return (
     <Fragment>
@@ -18,7 +25,11 @@ const SelectField = ({ name, options = [], ...props }) => {
           {...props}
         >
           {options.map((option) => (
-            <option key={option["value"]} value={option["value"]}>
+            <option
+              key={option["value"]}
+              value={option["value"]}
+              {...option.attr}
+            >
               {option["text"]}
             </option>
           ))}
