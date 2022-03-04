@@ -72,18 +72,17 @@ const General = () => {
       then: Yup.string().required("Please select Subject"),
       otherwise: Yup.string(),
     }),
-    obtained_marks: Yup.number().when("class", {
-      is: (value) => value != 1,
-      then: Yup.number().when(["total_marks", "obtained_marks"], {
-        is: (value, obtained_marks) => value < obtained_marks,
-        then: Yup.number().required("Invalid marks"),
-        otherwise: Yup.number().required("Please provide Obtained Marks"),
-      }),
-      otherwise: Yup.number(),
-    }),
+    obtained_marks: Yup.number().when(
+      ["class", "obtained_marks", "total_marks"],
+      {
+        is: (value, obtained, total) => value != 1 && obtained <= total,
+        then: Yup.number().required("Invalid Obtained Marks"),
+        otherwise: Yup.number(),
+      }
+    ),
     total_marks: Yup.number().when("class", {
       is: (value) => value != 1,
-      then: Yup.number().required("Please provide Total Marks"),
+      then: Yup.number().required("Invalid Total Marks"),
       otherwise: Yup.number(),
     }),
     passing_year: Yup.number().when("class", {
